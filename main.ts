@@ -2,7 +2,7 @@
 //    機能： 8x8 LEDの描画
 //    カテゴリアイコン:  テーブル模様 [fontawesome v4からアイコン選択]、橙色
 namespace max7219editor {
-    //% block="名前 %name をつけて8x8 LED %patternを描画"
+    //% block="LED editor simple %name with pattern %pattern"
     //% name.defl="simplePattern"
     //% pattern.fieldEditor="ledmatrix_simple"
     //% pattern.fieldOptions.width=8
