@@ -1,0 +1,19 @@
+{
+  "name": "max7219-editor",
+  "description": "8x8 LED GUI block",
+  "files": [
+    "main.ts",
+    "editor.js",
+    "editor.html"
+  ],
+  "testFiles": [],
+  "public": true,
+  "simulator": {
+    "autoRun": true,
+    "parts": true
+  },
+
+  "dependencies": {
+    "core": "*"
+  }
+}
