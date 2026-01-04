@@ -1,23 +1,22 @@
-# MAX7219 8x8 LED Editor for MakeCode
+# MAX7219 8x8 LED GUI Editor for micro:bit MakeCode extension pxt-MAX7219_8x8
 
-This extension provides a custom 8x8 LED matrix editor GUI.
+This GUI tools provides  8x8 LED byte-array-string for pxt-MAX7219_8x8 extension.
 
 ## Features
 - 8x8 clickable grid
 - Toggle ON/OFF
-- Generates Bxxxxxxxx format rows
+- Generates Bxxxxxxxx byte-array-string
 - Usable as a MakeCode block
 
-## How to use
+## 使い方
 
-To install this extension in the MakeCode editor, follow the steps below:
+Windows ユーザの場合、次のexeファイルを実行してください。
+	max7219-GUI-editor.exe
 
-1. Open the MakeCode editor for micro:bit:
-   https://makecode.microbit.org/
+Python ユーザの場合、pyファイルを実行してください。
+   python max7219-GUI-editor.py
 
-2. Click **Extensions** from the menu.
+左側の64コのマスを塗りつぶした後に、「書き出し」ボタンをクリックします。
 
-3. In the search box, paste the following URL:
-
-    https://github.com/xxxxxx/xxxxx
+テキストボックスにpxt-MAX7219_8x8 extensin用のbyte array stringを出力します。
 
